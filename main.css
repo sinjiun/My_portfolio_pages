@@ -3,12 +3,15 @@ header{
     margin-right: auto;
     margin-left: auto;
     background-color: #e3dacb;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
     overflow: hidden;}
 
     
 header nav{
-    width: 70%;
+    width: 90%;
     float: right}
 
 nav ul{
@@ -17,10 +20,10 @@ nav ul{
 
 nav ul li{
     display: inline;
-    margin: 40px;
+    margin: 50px;
     float: right;
     font-size: large;
-    font-style: thick;
+    font-weight: bold;
 }
 
 nav ul li a{
@@ -36,4 +39,96 @@ section {
     padding: 100px;
     overflow: hidden;}
 }
+
+@font-face{
+    font-family: NanumGothic;
+    src:url('NanumGothic.ttf');
+    font-weight: normal;
+}
+
+p1{
+    font-family: NanumGothic;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    
+}
+
+p2{
+    font-family: NanumGothic;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4037;
+}
+
+p3{
+    font-family: NanumGothic;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #77b7c6;
+    font-weight: bold;
+    
+}
+
+p4{
+    font-family: NanumGothic;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4037;
+    
+}
+
+p6{
+    font-family: NanumGothic;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #95877f;
+}
+
+.img_coin{
+    float: inherit;
+    margin: 5px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img_coin:hover{
+    transform: rotate3d(1,0,0,360deg);
+    transition: transform 2s cubic-bezier(.09,.72,.54,.95);
+}
+
+#coin1{
+    background: url("coin3-01.png");
+    background-size: 200px;
+
+}
+
+#coin2{
+    background: url("coin1-01.png");
+    background-size: 200px;
+    float: inherit;
+}
+
+#coin3{
+    background: url("coin2-01.png");
+    background-size: 200px;
+   
+}
+
+p{
+    font-family: NanumGothic;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4037;
+    font-weight: bold;
+    
 
